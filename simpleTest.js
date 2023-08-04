@@ -22,6 +22,6 @@ describe('App', function() {
         assert.equal(divTwo(4,2), 2);
     });
     it('divTwo should return 0', function(){
-        assert.equal(divTwo(4,2), 0);
+        assert.equal(divTwo(4,0), 0);
     });
 });
