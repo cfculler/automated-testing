@@ -31,3 +31,10 @@ jobs:
       # Runs a single command using the runners shell
       - name: Run Tests
         run: npm run test
+
+  simple:
+      runs-on: ubuntu-latest
+
+      steps:
+        - name: Echo one line script
+          run: echo "Simple job ran"
