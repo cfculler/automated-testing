@@ -39,3 +39,6 @@ jobs:
       steps:
         - name: Echo one line script
           run: echo "Simple job ran"
+
+badges:
+  status: ${{ github.workflow }} - ${{ github.sha }}
